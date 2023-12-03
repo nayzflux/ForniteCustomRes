@@ -58,6 +58,16 @@ fn main() {
         den = 4;
     }
 
+    if formats[format].eq("21:9") {
+        num = 21;
+        den = 9;
+    }
+
+    if formats[format].eq("32:9") {
+        num = 32;
+        den = 9;
+    }
+
     let path_string = localappdata + "/FortniteGame/Saved/Config/WindowsClient/GameUserSettings.ini";
     let path = path_string.as_str();
 
