@@ -8,3 +8,6 @@ edition = "2021"
 [dependencies]
 dialoguer = "0.11.0"
 rust-ini = "0.19"
+native-windows-gui = "1.0.12"
+native-windows-derive = "1.0.3"
+num = "0.4.1" # Optional. Only if the derive macro is used.
